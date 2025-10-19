@@ -1,0 +1,25 @@
+{
+  "name": "homework01regex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmolty/hw-regex.git"
+  },
+  "author": "alexmolt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmolty/hw-regex/issues"
+  },
+  "homepage": "https://github.com/alexmolty/hw-regex#readme",
+  "description": "",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  },
+  "dependencies": {
+    "@jest/globals": "^30.2.0"
+  }
+}
