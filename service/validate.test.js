@@ -9,7 +9,7 @@ describe('validateCardNumber', () => {
         expect(validateCardNumber('000000000000')).toBe(true);
         expect(validateCardNumber('09426894282439')).toBe(true);
     });
-    test('shold return false if the card number is invalid', () => {
+    test('should return false if the card number is invalid', () => {
         expect(validateCardNumber('12345')).toBe(false);
         expect(validateCardNumber('1234-5678')).toBe(false);
         expect(validateCardNumber('adfadvqerg')).toBe(false);
